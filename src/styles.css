@@ -1,0 +1,65 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("/Background.png") no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#container {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.app-container {
+  height: 100%;
+}
+.quill {
+  height: 70%;
+  box-sizing: border-box;
+  width: calc(100% - 300px);
+  float: left;
+  padding-left: 1%;
+  margin-top: 2%;
+}
+.ql-container {
+  box-sizing: border-box;
+  height: calc(100% - 42px);
+  overflow-y: scroll;
+}
+.ql-editor {
+  cursor: text;
+}
+.MuiListItem-root.Mui-selected {
+  background-color: #f0f8ff;
+}
+.no-note-selected {
+  font-size: 48px;
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 165px);
+}
+.login-container {
+  height: 100vh;
+  font-size: 40px;
+  text-align: center;
+}
+.loginbtn {
+  width: 200px;
+  background-color: #ff0000;
+  font-size: 30px;
+  border-radius: 15px;
+  border-bottom: 2px solid black;
+  color: white;
+  margin: 50px;
+}
+.title {
+  padding-top: 20%;
+}
