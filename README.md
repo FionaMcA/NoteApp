@@ -21,3 +21,5 @@ To install *this* project:
 * run `npm start`
 
 *It is important to ensure that Node is installed*
+
+**This project can be edited to suit the needs of the project**
